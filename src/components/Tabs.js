@@ -6,7 +6,7 @@ let Tabs= (props)=>{
                 props.tabs.map(element=>{
                     return(<li onClick={()=>{props.onclick(element.content)}}>{element.content}</li>)
                 })
-            }
+             }
         </ul>
     )
 }
