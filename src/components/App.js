@@ -11,6 +11,7 @@ const App = () => {
   }
   return (
     <div>
+        
         {<Tabs tabs={tabs} onclick={changetab}/>}
         {tab && <div>This is the content for {tab}.</div>}
     </div>
